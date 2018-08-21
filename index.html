@@ -1,18 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-TXfwrfuHVznxCssTxWoPZjhcss/hp38gEOH8UPZG/JcXonvBQ6SlsIF49wUzsGno" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/app.css"/>
 
         <title>Write MD Dropbox</title>
     </head>
-    <body>
-        <div id="app">
-            <router-view></router-view>
+    <body class="h-100">
+        <div id="app" class="h-100">
+            <a-menu></a-menu>
+            <router-view style="padding-top: 70px; padding-bottom: 40px;"></router-view>
+            <a-status-bar></a-status-bar>
         </div>
 
         <script src="assets/manifest.js"></script>
